@@ -2,11 +2,6 @@
 
 ## Usecase: Need a quick firebase cloud storage uploader for csv (file/folder)
 
-\
-&nbsp;
-
----
-
 ## How to use?
 
 1. Generate your serviceAccountKey.json
@@ -24,3 +19,16 @@
 ---
 
 ## Screenshots
+1. ![image](https://user-images.githubusercontent.com/22400845/129329452-b5d85c9e-74b5-488a-af5f-a3b1c2c9cc86.png)
+   
+   Select CSV file, accepts multi file (but only CSV)
+2. ![image](https://user-images.githubusercontent.com/22400845/129329584-ad7cc31b-e9d5-444f-94f2-959fb94c62af.png)
+
+   If directory needed, select recursive function (Will upload all in directory)
+3. ![image](https://user-images.githubusercontent.com/22400845/129329731-6c238b2e-c501-4f03-865d-164b074c8e7a.png)
+
+   If extra (name) is input, will be placed on the back.
+   
+---
+## Remarks
+* If file exists, it will loop from 1 to n, and add _n to the back before file format and upload to the cloud.
